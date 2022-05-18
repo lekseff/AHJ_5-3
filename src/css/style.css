@@ -3,3 +3,79 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(65, 65, 65);
+}
+
+input {
+	font-size: 16px;
+	font-family: inherit;
+	color: inherit;
+	text-align: center;
+	padding: 2px 5px;
+	border: none;
+	border: 1px solid gray;
+	border-radius:4px;
+	margin-top: 3px;
+	user-select: none;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(48, 48, 48);
+	background-image: url('../img/bg1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.app {
+	max-width: 400px;
+	width: 100%;
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+label {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.calendar__direction {
+	display: flex;
+	align-items: center;
+	width: fit-content;	
+}
+
+.direction {
+	margin-left: 10px;
+}
+
+.calendar__box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 16px;
+}
+
+.calendar__box-label {
+	/* width: min-content; */
+	width: 70%;
+}
+
+.calendar__forth {
+	width: 80%;
+}
+
+.hidden {
+	display: none;
+}

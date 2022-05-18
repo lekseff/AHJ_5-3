@@ -10,5 +10,25 @@
   <title>Trip Calendar</title>
 </head>
 <body>
+  <div class="container">
+    <div class="app" id="app">
+      <form class="calendar">
+        <label class="calendar__direction">
+          Туда-Обратно:
+          <input class="direction" type="checkbox" id="direction" checked="checked">
+        </label>
+        <div class="calendar__box">
+          <label class="calendar__box-label">
+            Туда:
+            <input class="calendar__forth" type="date" id="input-forth" onkeydown="return false">
+          </label>
+          <label class="calendar__box-label">
+            Обратно:
+            <input class="calendar__back" type="date" id="input-back" onkeydown="return false">
+          </label>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
