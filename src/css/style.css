@@ -46,7 +46,7 @@ input {
 }
 
 label {
-	display: inline-block;
+	display: block;
 	font-size: 14px;
 }
 
@@ -68,12 +68,18 @@ label {
 }
 
 .calendar__box-label {
+	padding-left: 8px;
+	padding-right:8px;
 	/* width: min-content; */
-	width: 70%;
+	width: 50%;
 }
 
 .calendar__forth {
-	width: 80%;
+	width: 100%;
+}
+
+.calendar__back {
+	width: 100%;
 }
 
 .hidden {
